@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4.4" type="template">
+	<name>tf-joomla-template</name>
+	<creationDate>2015-10-19</creationDate>
+	<author>Jonatan Kaján</author>
+	<authorEmail>jonatan.kajan@aalto.fi</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.2</version>
+	<description>Basic template for teknologforeningen.fi</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+	</positions>
+</extension>
