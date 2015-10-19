@@ -5,11 +5,13 @@
 <jdoc:include type="head" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/foundation/css/foundation.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/template.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/style.css" type="text/css" />
+<script src="js/vendor/modernizr.js"></script>
 </head>
-
 <body>
+
 <jdoc:include type="modules" name="top" />
 <jdoc:include type="component" />
 <jdoc:include type="modules" name="bottom" />
