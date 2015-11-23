@@ -43,9 +43,18 @@
 </head>
 <body>
 
-<div class="top-bar">
-  <img id="menu-logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/img/tf_natside_logon-04.svg" alt="TF">
-  <jdoc:include type="modules" name="topmenu" />
+<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Teknologföreningen</div>
+</div>
+
+<div class="top-bar" id="main-menu">
+  <div class="top-bar-left">
+    <img id="menu-logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/img/tf_natside_logon-08.svg" alt="TF">
+  </div>
+  <div class="top-bar-right">
+    <jdoc:include type="modules" name="topmenu" />
+  </div>
 </div>
 
 <div class="row">

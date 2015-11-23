@@ -5,7 +5,28 @@ body {
 }
 
 #menu-logo {
-  width: 2rem;
+  width: 4rem;
   margin-left: 0.5rem;
   display: inline-block;
+  float: left;
 }
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+}
+
+.top-bar, .top-bar ul {
+  background-color: #ffffff;
+}
+
+ul.menu>li>a {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 1.2rem;
+}
+
+ul.menu>li.current>a {
+  color: #b20738;
+  font: 1.2rem "Montserrat-Bold", sans-serif;
+}
+
