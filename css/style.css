@@ -15,8 +15,29 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
 }
 
+.row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .top-bar, .top-bar ul {
   background-color: #ffffff;
+}
+
+.top-bar {
+  border-bottom: solid 1px;
+}
+
+.side-left {
+  border-right: solid 1px;
+}
+
+.side-right {
+  border-left: solid 1px;
+}
+
+footer {
+  border-top: solid 1px;
 }
 
 ul.menu>li>a {
