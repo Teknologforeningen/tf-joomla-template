@@ -64,13 +64,13 @@
 </div>
 
 <div class="row">
-  <div class="small-12 medium-4 large-3 columns">
+  <div class="small-12 medium-4 large-3 columns side-left">
     <jdoc:include type="modules" name="left" />
   </div>
   <div class="small-12 medium-8 large-6 columns">
     <jdoc:include type="component" />
   </div>
-  <div class="small-12 medium-12 large-3 columns">
+  <div class="small-12 medium-12 large-3 columns side-right">
     <jdoc:include type="modules" name="right" />
   </div>
 </div>
