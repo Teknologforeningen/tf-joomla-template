@@ -41,7 +41,7 @@
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/css/style.css" type="text/css" />
 
 </head>
-<body class="Site">
+<body class="site">
 
 <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
   <button class="menu-icon" type="button" data-toggle></button>
@@ -63,7 +63,7 @@
   </div>
 </div>
 
-<div class="row Site-content">
+<div class="row site-content">
   <div class="small-12 medium-4 large-3 columns">
     <jdoc:include type="modules" name="left" />
   </div>
@@ -75,7 +75,7 @@
   </div>
 </div>
 
-<footer>
+<footer class="bottom-bar">
   <jdoc:include type="modules" name="footer" />
 </footer>
 
