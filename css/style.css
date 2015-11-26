@@ -15,8 +15,16 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
 }
 
+.top-bar {
+  border-bottom: solid 1px #e2e2e2;
+}
+
 .top-bar, .top-bar ul {
   background-color: #ffffff;
+}
+
+.bottom-bar {
+  border-top: solid 1px #e2e2e2;
 }
 
 ul.menu>li>a {
@@ -30,3 +38,12 @@ ul.menu>li.current>a {
   font: 1.2rem "Montserrat-Bold", sans-serif;
 }
 
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1 0 auto;
+}
