@@ -30,6 +30,7 @@ h1, h2, h3, h4 {
 
 .side-left {
   border-right: solid 1px;
+  min-height: 1px;
 }
 
 .side-right {
