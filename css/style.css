@@ -27,6 +27,14 @@ h1, h2, h3, h4 {
   border-top: solid 1px #e2e2e2;
 }
 
+.columns {
+  min-height: 1px;
+}
+
+.columns li {
+  display: block;
+}
+
 ul.menu>li>a {
   text-transform: uppercase;
   color: #000000;
