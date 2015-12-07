@@ -38,6 +38,23 @@ ul.menu>li.current>a {
   font: 1.2rem "Montserrat-Bold", sans-serif;
 }
 
+.nav-child {
+  display: none;
+}
+
+.menu li:hover .nav-child {
+  display: block;
+  position: fixed;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 0.5em;
+  text-transform: uppercase;
+}
+
+.menu li:hover .nav-child a {
+  color: black;
+}
+
 .site {
   display: flex;
   min-height: 100vh;
