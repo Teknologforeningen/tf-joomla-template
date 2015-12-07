@@ -34,6 +34,12 @@ h2 {
   font-size: 1.4em;
 }
 
+li.edit-icon {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
 .top-bar {
   border-bottom: solid 1px #e2e2e2;
 }
