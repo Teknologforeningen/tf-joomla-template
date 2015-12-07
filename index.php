@@ -75,7 +75,7 @@
   </div>
 </div>
 
-<footer class="bottom-bar">
+<footer class="footer">
   <jdoc:include type="modules" name="footer" />
 </footer>
 
