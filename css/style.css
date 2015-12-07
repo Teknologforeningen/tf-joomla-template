@@ -115,3 +115,9 @@ div.blog>div {
   padding-bottom: 2em;
   margin-bottom: 4em;
 }
+
+div.blog>div:last-of-type {
+  border-bottom: none;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+}
