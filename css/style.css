@@ -49,12 +49,12 @@ h2 {
 ul.menu>li>a {
   text-transform: uppercase;
   color: #000000;
-  font-size: 1.2rem;
+  font-size: 1.3em;
 }
 
 ul.menu>li.current>a {
   color: #b20738;
-  font: 1.2rem "Montserrat-Bold", sans-serif;
+  font: 1.3em "Montserrat-Bold", sans-serif;
 }
 
 .nav-child {
