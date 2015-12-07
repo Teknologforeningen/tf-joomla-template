@@ -52,6 +52,16 @@ li.edit-icon {
   border-top: solid 1px black;
 }
 
+footer .logout-button .btn {
+  margin: 1em;
+  text-transform: uppercase;
+  background:none!important;
+  border:none; 
+  padding:0!important;
+  font: inherit;
+  cursor: pointer;
+}
+
 ul.menu>li>a {
   text-transform: uppercase;
   color: #000000;
