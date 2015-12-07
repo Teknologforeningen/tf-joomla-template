@@ -87,3 +87,9 @@ ul.menu>li.current>a {
 .site-content {
   flex: 1 0 auto;
 }
+
+div.blog>div {
+  border-bottom: 1px solid black;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+}
