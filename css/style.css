@@ -49,7 +49,13 @@ li.edit-icon {
 }
 
 .footer {
+  width: 100%;
   border-top: solid 1px black;
+}
+
+#footer-right {
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer .logout-button .btn {

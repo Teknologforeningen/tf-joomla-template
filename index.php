@@ -75,8 +75,13 @@
   </div>
 </div>
 
-<footer class="footer">
-  <jdoc:include type="modules" name="footer" />
+<footer class="footer row">
+  <div id="footer-left" class="small-12 medium-6 large-6 columns">
+    <jdoc:include type="modules" name="footer-left" />
+  </div>
+  <div id="footer-right" class="small-12 medium-6 large-6 columns">
+    <jdoc:include type="modules" name="footer-right" />
+  </div>
 </footer>
 
 
