@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
 
-<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/foundation/css/foundation.min.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/foundation/css/foundation.css" type="text/css" />
 
 <!-- Style tag to allow joomla template paths via php -->
 <style>
@@ -57,7 +57,7 @@
   </div>
 </div>
 
-<div class="row">
+<div id="top-module" class="row">
   <div class="small-12 columns">
     <jdoc:include type="modules" name="top" />
   </div>
@@ -75,7 +75,7 @@
   </div>
 </div>
 
-<footer class="bottom-bar">
+<footer class="footer">
   <jdoc:include type="modules" name="footer" />
 </footer>
 

@@ -12,7 +12,26 @@ body {
 }
 
 h1, h2, h3, h4 {
+  font: 12px "Montserrat-Bold", sans-serif;
   text-transform: uppercase;
+  font-size: 1em;
+  color: black;
+}
+
+h1>a, h2>a, h3>a, h4>a {
+  color: black;
+}
+
+h1>a:hover, h2>a:hover, h3>a:hover, h4>a:hover {
+  color: black;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.4em;
 }
 
 .top-bar {
@@ -23,19 +42,19 @@ h1, h2, h3, h4 {
   background-color: #ffffff;
 }
 
-.bottom-bar {
-  border-top: solid 1px #e2e2e2;
+.footer {
+  border-top: solid 1px black;
 }
 
 ul.menu>li>a {
   text-transform: uppercase;
   color: #000000;
-  font-size: 1.2rem;
+  font-size: 1.3em;
 }
 
 ul.menu>li.current>a {
   color: #b20738;
-  font: 1.2rem "Montserrat-Bold", sans-serif;
+  font: 1.3em "Montserrat-Bold", sans-serif;
 }
 
 .nav-child {
@@ -55,6 +74,10 @@ ul.menu>li.current>a {
   color: black;
 }
 
+#top-module {
+  margin-bottom: 4em;
+}
+
 .site {
   display: flex;
   min-height: 100vh;
@@ -63,4 +86,10 @@ ul.menu>li.current>a {
 
 .site-content {
   flex: 1 0 auto;
+}
+
+div.blog>div {
+  border-bottom: 1px solid black;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
 }
