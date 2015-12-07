@@ -57,7 +57,7 @@
   </div>
 </div>
 
-<div class="row">
+<div id="top-module" class="row">
   <div class="small-12 columns">
     <jdoc:include type="modules" name="top" />
   </div>
