@@ -4,13 +4,6 @@ body {
   font: 12px "Montserrat-Light", sans-serif;
 }
 
-#menu-logo {
-  width: 4rem;
-  margin-left: 0.5rem;
-  display: inline-block;
-  float: left;
-}
-
 h1, h2, h3, h4 {
   font: 12px "Montserrat-Bold", sans-serif;
   text-transform: uppercase;
@@ -34,49 +27,51 @@ h2 {
   font-size: 1.4em;
 }
 
-li.edit-icon {
-  list-style-type: none;
-  text-transform: uppercase;
-  font-size: 0.8em;
+strong, .bold {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+/*
+ * Template - Top bar and menu
+ */
+
+#menu-logo {
+  width: 3.5em;
+  margin-left: 0.5rem;
+  display: inline-block;
+}
+
+#top-bar-wrapper {
+  width: 100%;
+  border-bottom: solid 1px black;
 }
 
 .top-bar {
-  border-bottom: solid 1px #e2e2e2;
+  margin-bottom: 1px;
 }
 
 .top-bar, .top-bar ul {
   background-color: #ffffff;
 }
 
-.footer {
-  width: 100%;
-  border-top: solid 1px black;
-}
-
-#footer-right {
+.top-bar .menu {
   display: flex;
   justify-content: flex-end;
 }
 
-footer .logout-button .btn {
-  margin: 1em;
-  text-transform: uppercase;
-  background:none!important;
-  border:none; 
-  padding:0!important;
-  font: inherit;
-  cursor: pointer;
+#top-module {
+  margin-bottom: 4em;
 }
 
 ul.menu>li>a {
   text-transform: uppercase;
   color: #000000;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 ul.menu>li.current>a {
   color: #b20738;
-  font: 1.3em "Montserrat-Bold", sans-serif;
+  font-family: "Montserrat-Bold", sans-serif;
 }
 
 .nav-child {
@@ -96,9 +91,10 @@ ul.menu>li.current>a {
   color: black;
 }
 
-#top-module {
-  margin-bottom: 4em;
-}
+
+/*
+ * Template - Footer
+ */
 
 .site {
   display: flex;
@@ -108,6 +104,36 @@ ul.menu>li.current>a {
 
 .site-content {
   flex: 1 0 auto;
+}
+
+#footer-wrapper {
+  width: 100%;
+  border-top: solid 1px black;
+}
+
+#footer-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .logout-button .btn {
+  margin: 1em;
+  text-transform: uppercase;
+  background:none!important;
+  border:none; 
+  padding:0!important;
+  font: inherit;
+  cursor: pointer;
+}
+
+/*
+ * Content related css rules
+ */
+
+li.edit-icon {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 div.blog>div {
