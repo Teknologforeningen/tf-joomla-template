@@ -67,6 +67,10 @@ strong, .bold {
   flex: 1;
 }
 
+.title-bar button {
+  outline: none;
+}
+
 @media screen and (min-width: 40em) {
   .top-bar .menu {
     display: flex;
