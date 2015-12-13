@@ -54,9 +54,11 @@ strong, .bold {
   background-color: #ffffff;
 }
 
-.top-bar .menu {
-  display: flex;
-  justify-content: flex-end;
+@media screen and (min-width: 40em) {
+  .top-bar .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 
 #top-module {
@@ -74,21 +76,15 @@ ul.menu>li.current>a {
   font-family: "Montserrat-Bold", sans-serif;
 }
 
-.nav-child {
-  display: none;
-}
-
-.menu li:hover .nav-child {
-  display: block;
-  position: fixed;
-  background-color: #fff;
-  border: 1px solid black;
-  padding: 0.5em;
+.title-bar {
+  background-color: white;
+  color: black;
   text-transform: uppercase;
 }
 
-.menu li:hover .nav-child a {
-  color: black;
+.menu-icon::after {
+  background: black;
+  box-shadow: 0 7px 0 black, 0 14px 0 black;
 }
 
 

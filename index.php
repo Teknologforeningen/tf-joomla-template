@@ -43,19 +43,21 @@
 </head>
 <body class="site">
 
-<!-- Title bar for small screens -->
-<div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-  <button class="menu-icon" type="button" data-toggle></button>
-  <div class="title-bar-title">Teknologföreningen</div>
-</div>
 
-<!-- Top bar and menu for large screens -->
 <div id="top-bar-wrapper">
+
+  <!-- Title bar for small screens. Hides/Shows menu on small screen. -->
+  <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Teknologföreningen</div>
+  </div>
+
+  <!-- Menu -->
   <div class="top-bar row align-middle" id="main-menu">
-    <div class="column middle-4 large-4">
+    <div class="column show-for-medium medium-4 large-4">
       <img id="menu-logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/img/tf_logo_black.svg" alt="TF">
     </div>
-    <div class="column middle-8 large-8 justify-right">
+    <div class="column small-12 medium-8 large-8">
       <jdoc:include type="modules" name="topmenu" />
     </div>
   </div>
