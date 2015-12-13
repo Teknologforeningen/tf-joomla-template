@@ -167,3 +167,24 @@ div.blog>div:last-of-type {
   padding-bottom: 2em;
   margin-bottom: 4em;
 }
+
+/*
+ * Events
+ */
+
+div.event {
+  border-bottom: 1px solid black;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+}
+
+div.event:last-of-type {
+  border-bottom: none;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
+}
+
+div.event ul {
+  list-style: none;
+  margin: 0;
+}
