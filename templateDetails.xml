@@ -17,7 +17,7 @@
 	</files>
 	<positions>
 		<position>topmenu</position>
-		<position>breadcrumb</position>
+		<position>breadcrumbs</position>
 		<position>left</position>
 		<position>right</position>
 		<position>top</position>

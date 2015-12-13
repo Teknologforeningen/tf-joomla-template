@@ -132,6 +132,24 @@ ul.menu>li.current>a {
   box-shadow: 0 7px 0 black, 0 14px 0 black;
 }
 
+/*
+ * Breadcrumbs
+ */
+
+ul.breadcrumb {
+  list-style: none;
+  margin: 1em 0;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  text-transform: uppercase;
+}
+
+ul.breadcrumb .divider {
+  font-size: 0.5em;
+  vertical-align: middle;
+}
 
 /*
  * Template - Footer

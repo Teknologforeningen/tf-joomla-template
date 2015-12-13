@@ -63,6 +63,10 @@
   </div>
 </div>
 
+<div class="row">
+  <jdoc:include type="modules" name="breadcrumbs" />
+</div>
+
 <!-- Module place right below the top-bar -->
 <div id="top-module-wrapper">
   <div id="top-module" class="row">
