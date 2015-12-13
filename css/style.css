@@ -55,9 +55,16 @@ strong, .bold {
   background-color: #ffffff;
 }
 
-.title-bar button.menu-icon {
-  position: absolute;
-  right: 0;
+.title-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.title-bar-header {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex: 1;
 }
 
 @media screen and (min-width: 40em) {
