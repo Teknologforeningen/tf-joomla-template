@@ -29,3 +29,13 @@ You also need to set the `List Row Detail` custom layout as follows in the JEven
 </ul>
 <p>{{Description:DESCRIPTION}}</p>
 ```
+
+# Plugins and other stuff
+
+This section documents stylistic things for plugins and other things that use their own stylings to some extent. These are not part of this template but are documented here to keep things in one place.
+
+## Dropfiles
+
+There is a custom dropfiles theme installed on the server. This theme only provides a new set of icons to replace the ones used in the default theme.
+
+Because there does not seem to be a way to change which theme is used by default in Dropfiles (among some other issues), we have just replaced the original files in the "Default" theme with the new ones. The old files are still available on the server in the same location where the rest of the themes are (refer to the Dropfiles documentation for more information).
