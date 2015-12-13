@@ -74,15 +74,15 @@
 
 <!-- Main content area -->
 <div class="row site-content">
-  <div class="small-12 medium-4 large-3 small-order-2 medium-order-1 column">
+  <div class="small-12 medium-3 large-3 small-order-2 medium-order-1 column">
     <!-- Module: left -->
     <jdoc:include type="modules" name="left" />
   </div>
-  <div class="small-12 medium-8 large-6 small-order-1 medium-order-2 column">
+  <div class="small-12 medium-6 large-6 small-order-1 medium-order-2 column">
     <!-- Component -->
     <jdoc:include type="component" />
   </div>
-  <div class="small-12 medium-12 large-3 small-order-3 medium-order-3 column">
+  <div class="small-12 medium-3 large-3 small-order-3 medium-order-3 column">
     <!-- Module: right -->
     <jdoc:include type="modules" name="right" />
   </div>
