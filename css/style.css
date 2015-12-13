@@ -58,6 +58,10 @@ strong, .bold {
 .title-bar {
   display: flex;
   flex-direction: row;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
 }
 
 .title-bar-header {
