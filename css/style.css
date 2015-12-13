@@ -69,6 +69,7 @@ strong, .bold {
   text-overflow: ellipsis;
   overflow: hidden;
   flex: 1;
+  padding-right: 0.9375rem;
 }
 
 .title-bar button {
