@@ -31,6 +31,14 @@ strong, .bold {
   font-family: "Montserrat-Bold", sans-serif;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.teknologrod {
+  color: #b20738;
+}
+
 /*
  * Template - Top bar and menu
  */
