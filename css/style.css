@@ -39,6 +39,20 @@ strong, .bold {
   color: #b20738 !important;
 }
 
+.knapp {
+  display: inline-block;
+  padding: 1em;
+  margin: 1em 0;
+  background: #b20738;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
+.knapp:hover {
+  color: white;
+}
+
 /*
  * Template - Top bar and menu
  */
