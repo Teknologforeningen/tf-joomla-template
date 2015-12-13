@@ -41,7 +41,7 @@ strong, .bold {
 
 .knapp {
   display: inline-block;
-  padding: 1em;
+  padding: 0.9em 1em 1.1em 1em;
   margin: 1em 0;
   background: #b20738;
   color: white;
