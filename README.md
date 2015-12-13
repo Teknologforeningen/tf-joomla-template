@@ -10,3 +10,6 @@
 3. Start and enable the needed services for [NFS](https://wiki.archlinux.org/index.php/NFS#Starting_the_server)
 4. Set up the [Vagrant box](https://github.com/joomlatools/joomla-vagrant)
 
+# Custom layouts
+
+Some modules, like the main menu, should be used with alternative layouts. In the module settings, go to "Advanced" and choose an "Alternative layout" from the dropdown.
