@@ -48,8 +48,8 @@
 
   <!-- Title bar for small screens. Hides/Shows menu on small screen. -->
   <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+    <span class="title-bar-header"><?php $doc = JFactory::getDocument(); echo $doc->getTitle();?></span>
     <button class="menu-icon" type="button" data-toggle></button>
-    <div class="title-bar-title">Teknologföreningen</div>
   </div>
 
   <!-- Menu -->
