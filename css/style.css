@@ -172,6 +172,17 @@ ul.breadcrumb .divider {
 }
 
 /*
+ * Force override font
+ * This could override valid styling, needs to be tested
+ */
+
+ .event p, .event span, .event a,
+ .blog p, .blog span, .blog a,
+ .item-page p, .item-page span, .item-page a {
+  font-family: "Montserrat", sans-serif !important;
+ }
+
+/*
  * Template - Footer
  */
 
