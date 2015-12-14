@@ -42,56 +42,61 @@
 
 </head>
 <body class="site">
+<div class="site-content">
 
 
-<div id="top-bar-wrapper">
+  <div id="top-bar-wrapper">
 
-  <!-- Title bar for small screens. Hides/Shows menu on small screen. -->
-  <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
-    <span class="title-bar-header"><?php $doc = JFactory::getDocument(); echo $doc->getTitle();?></span>
-    <button class="menu-icon" type="button" data-toggle></button>
-  </div>
-
-  <!-- Menu -->
-  <div class="top-bar row align-middle" id="main-menu">
-    <div class="column show-for-medium medium-4 large-4">
-      <a href="//www.teknologforeningen.fi/"><img id="menu-logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/img/tf_logo_black.svg" alt="TF"></a>
+    <!-- Title bar for small screens. Hides/Shows menu on small screen. -->
+    <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+      <span class="title-bar-header"><?php $doc = JFactory::getDocument(); echo $doc->getTitle();?></span>
+      <button class="menu-icon" type="button" data-toggle></button>
     </div>
-    <div class="column small-12 medium-8 large-8">
-      <jdoc:include type="modules" name="topmenu" />
-    </div>
-  </div>
-</div>
 
-<div class="row">
-  <jdoc:include type="modules" name="breadcrumbs" />
-</div>
-
-<!-- Module place right below the top-bar -->
-<div id="top-module-wrapper">
-  <div id="top-module" class="row">
-    <div class="small-12 columns">
-      <jdoc:include type="modules" name="top" />
+    <!-- Menu -->
+    <div class="top-bar row align-middle" id="main-menu">
+      <div class="column show-for-medium medium-4 large-4">
+        <a href="//www.teknologforeningen.fi/"><img id="menu-logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/img/tf_logo_black.svg" alt="TF"></a>
+      </div>
+      <div class="column small-12 medium-8 large-8">
+        <jdoc:include type="modules" name="topmenu" />
+      </div>
     </div>
   </div>
-</div>
 
-<!-- Main content area -->
-<div class="row site-content">
-  <div class="small-12 medium-3 large-3 small-order-2 medium-order-1 column">
-    <!-- Module: left -->
-    <jdoc:include type="modules" name="left" />
+
+  <!-- Breadcrums module -->
+  <div class="row">
+    <div class="column">
+      <jdoc:include type="modules" name="breadcrumbs" />
+    </div>
   </div>
-  <div class="small-12 medium-6 large-6 small-order-1 medium-order-2 column">
-    <!-- Component -->
-    <jdoc:include type="component" />
+
+  <!-- Module place right below the top-bar -->
+  <div id="top-module-wrapper">
+    <div id="top-module" class="row">
+      <div class="small-12 columns">
+        <jdoc:include type="modules" name="top" />
+      </div>
+    </div>
   </div>
-  <div class="small-12 medium-3 large-3 small-order-3 medium-order-3 column">
-    <!-- Module: right -->
-    <jdoc:include type="modules" name="right" />
+
+  <!-- Main content area -->
+  <div class="row">
+    <div class="small-12 medium-3 large-3 small-order-2 medium-order-1 column">
+      <!-- Module: left -->
+      <jdoc:include type="modules" name="left" />
+    </div>
+    <div class="small-12 medium-6 large-6 small-order-1 medium-order-2 column">
+      <!-- Component -->
+      <jdoc:include type="component" />
+    </div>
+    <div class="small-12 medium-3 large-3 small-order-3 medium-order-3 column">
+      <!-- Module: right -->
+      <jdoc:include type="modules" name="right" />
+    </div>
   </div>
 </div>
-
 
 <!-- Footer -->
 <div id="footer-wrapper">

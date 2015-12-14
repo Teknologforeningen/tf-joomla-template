@@ -74,7 +74,6 @@ strong, .bold {
 
 #menu-logo {
   width: 3.5em;
-  margin-left: 0.5rem;
   display: inline-block;
 }
 
@@ -174,6 +173,7 @@ ul.breadcrumb .divider {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  align-content: felx-start;
 }
 
 .site-content {
