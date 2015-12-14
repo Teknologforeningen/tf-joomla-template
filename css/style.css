@@ -31,6 +31,10 @@ tbody {
   border: none;
 }
 
+tbody tr:nth-child(even) {
+    background: none;
+}
+
 strong, .bold {
   font-family: "Montserrat-Bold", sans-serif;
 }
