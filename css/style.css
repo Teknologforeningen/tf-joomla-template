@@ -27,6 +27,10 @@ h2 {
   font-size: 1.4em;
 }
 
+tbody {
+  border: none;
+}
+
 strong, .bold {
   font-family: "Montserrat-Bold", sans-serif;
 }
