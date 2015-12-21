@@ -72,8 +72,10 @@ strong, .bold {
   display: inline-block;
   padding: 0.9em 1em 1.1em 1em;
   margin: 1em 0;
-  background: #b20738;
-  color: white;
+  border-color: #b20738;
+  border-width: 2px;
+  border-style: solid;
+  color: black;
   text-transform: uppercase;
   font-family: "Montserrat-Bold", sans-serif;
 }
