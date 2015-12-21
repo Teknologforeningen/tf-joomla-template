@@ -71,10 +71,10 @@
 
     <!-- Menu -->
     <div class="top-bar row align-middle" id="main-menu">
-      <div class="column show-for-medium medium-4 large-4">
+      <div class="column show-for-medium medium-2 large-4">
         <a href="//www.teknologforeningen.fi/"><img id="menu-logo" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template;?>/img/tf_logo_black.svg" alt="TF"></a>
       </div>
-      <div class="column small-12 medium-8 large-8">
+      <div class="column small-12 medium-10 large-8">
         <jdoc:include type="modules" name="topmenu" />
       </div>
     </div>
