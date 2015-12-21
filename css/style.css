@@ -53,6 +53,10 @@ strong, .bold {
   color: #b20738 !important;
 }
 
+.pil {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
 .pil::after {
   content: '►';
   color: #b20738;
