@@ -60,7 +60,7 @@ strong, .bold {
   margin-left: 0.5em;
 }
 
-.knapp {
+.knapp, .btn {
   display: inline-block;
   padding: 0.9em 1em 1.1em 1em;
   margin: 1em 0;
