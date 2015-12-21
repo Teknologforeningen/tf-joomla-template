@@ -187,6 +187,13 @@ ul.breadcrumb .divider {
   vertical-align: middle;
 }
 
+/*
+ * Menu used in aside element (ex. Verksamhet)
+ */
+aside .menu li {
+    display: inline;
+    font-size: 0.8em;
+}
 
 
 /*
