@@ -57,6 +57,10 @@ strong, .bold {
   font-family: "Montserrat-Bold", sans-serif;
 }
 
+.pil a {
+  font-family: "Montserrat-Bold", sans-serif;
+}
+
 .pil::after {
   content: '►';
   color: #b20738;
@@ -185,16 +189,7 @@ ul.breadcrumb .divider {
   vertical-align: middle;
 }
 
-/*
- * Force override font
- * This could override valid styling, needs to be tested
- */
 
- .event p, .event span, .event a,
- .blog p, .blog span, .blog a,
- .item-page p, .item-page span, .item-page a {
-  font-family: "Montserrat-Light", sans-serif !important;
- }
 
 /*
  * Template - Footer
