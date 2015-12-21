@@ -130,6 +130,10 @@ strong, .bold {
     padding: 0 0.5em;
 
   }
+
+  .top-bar .menu li>a {
+    padding: 0;
+  }
 }
 
 #top-module {
