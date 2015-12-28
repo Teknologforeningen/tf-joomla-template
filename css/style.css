@@ -191,8 +191,14 @@ ul.breadcrumb .divider {
  * Menu used in aside element (ex. Verksamhet)
  */
 aside .menu li {
-    display: inline;
+    display: block;
     font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+aside .menu li ul li{
+    font-size: 1em;
+    padding-bottom: 0.5em;
 }
 
 
