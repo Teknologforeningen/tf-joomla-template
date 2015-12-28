@@ -293,3 +293,8 @@ div.event ul {
   list-style: none;
   margin: 0;
 }
+
+div.event p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
