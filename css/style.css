@@ -201,6 +201,15 @@ aside .menu li ul li{
     padding-bottom: 0.5em;
 }
 
+aside .menu li.parent,
+aside .menu li.current {
+  font-family: "Montserrat-Bold";
+}
+
+aside .menu li:not(.current):not(.parent) {
+  font-family: "Montserrat-Light";
+}
+
 
 /*
  * Template - Footer
