@@ -206,7 +206,7 @@ aside .menu li.current {
   font-family: "Montserrat-Bold";
 }
 
-aside .menu li:not(.current):not(.parent) {
+aside .menu li:not(.current) {
   font-family: "Montserrat-Light";
 }
 
