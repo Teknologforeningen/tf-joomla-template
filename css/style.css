@@ -219,6 +219,15 @@ aside .menu li:not(.current) {
 
 
 /*
+ * List of articles in category
+ */
+
+ul.category-module li {
+    text-transform: uppercase;
+    list-style: none;
+}
+
+/*
  * Template - Footer
  */
 
