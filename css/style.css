@@ -231,8 +231,11 @@ aside ul a:hover {
  */
 
 ul.category-module li {
-    text-transform: uppercase;
     list-style: none;
+}
+
+ul.category-module li a {
+  color: black;
 }
 
 /*
