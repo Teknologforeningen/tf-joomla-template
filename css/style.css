@@ -60,6 +60,8 @@ strong, .bold {
 
 .pil {
   font-family: "Montserrat-Bold", sans-serif;
+  text-transform: uppercase;
+  color: black;
 }
 
 .pil a {
