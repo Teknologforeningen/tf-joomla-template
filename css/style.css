@@ -83,6 +83,7 @@ strong, .bold {
   border-width: 2px;
   border-style: solid;
   color: black;
+  background-color: white;
   text-transform: uppercase;
   font-family: "Montserrat-Bold", sans-serif;
 }
