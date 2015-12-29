@@ -39,3 +39,17 @@ This section documents stylistic things for plugins and other things that use th
 There is a custom dropfiles theme installed on the server. This theme only provides a new set of icons to replace the ones used in the default theme.
 
 Because there does not seem to be a way to change which theme is used by default in Dropfiles (among some other issues), we have just replaced the original files in the "Default" theme with the new ones. The old files are still available on the server in the same location where the rest of the themes are (refer to the Dropfiles documentation for more information).
+
+# Paste as text
+
+To only allow pasting without formatting a small change had to be made to the Joomla TinyMCE source code. In the file `plugins/editors/tinymce/tinymce.php` the rows related to the simple editor view were edited like this:
+
+```
+toolbar1: \"bold italics underline strikethrough | undo redo | link unlink | bullist numlist\",
+
+// Plugins, puukoterat to add paste as text (as default) and link
+plugins: \"paste link\",
+paste_as_text: true,
+```
+
+
