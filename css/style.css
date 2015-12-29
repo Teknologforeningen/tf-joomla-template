@@ -217,6 +217,10 @@ aside .menu li:not(.current) {
   font-family: "Montserrat-Light";
 }
 
+aside ul a {
+    color: black;
+}
+
 
 /*
  * List of articles in category
