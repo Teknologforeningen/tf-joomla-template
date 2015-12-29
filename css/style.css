@@ -238,6 +238,11 @@ ul.category-module li a {
   color: black;
 }
 
+ul.category-module li a:hover {
+  color: #b20738;
+}
+
+
 /*
  * Template - Footer
  */
