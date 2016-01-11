@@ -47,7 +47,11 @@ JHtml::_('behavior.caption');
 		$row = $counter / $this->columns;
 
 		if ($rowcount == 1) : ?>
-
+    
+    
+        <!-- HERE STARTS THE BLOGPOSTS! -->
+        
+        
 		<div class="items-row cols-<?php echo (int) $this->columns;?> <?php echo 'row-' . $row; ?> row-fluid">
 		<?php endif; ?>
 			<div class="item column-<?php echo $rowcount;?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?> span<?php echo round((12 / $this->columns));?>"
