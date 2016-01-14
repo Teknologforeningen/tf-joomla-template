@@ -155,7 +155,7 @@ strong, .bold {
 
   .top-bar .menu li {
     padding: 1em 0.5em;
-
+    display: flex;
   }
 
   .top-bar .menu li>a {
