@@ -286,7 +286,7 @@ footer .logout-button .btn {
   padding: 0.7rem 1rem;
   text-transform: uppercase;
   background:none!important;
-  border:none; 
+  border:none;
   font: inherit;
   cursor: pointer;
   line-height: 1em;
@@ -294,6 +294,14 @@ footer .logout-button .btn {
 
 footer ul.menu li a {
   font-size: 1em;
+}
+
+/*
+ * Pagination
+ */
+
+.pagination > ul > li, .pagination > ul > li > a {
+  display: inline;
 }
 
 /*
