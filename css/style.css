@@ -304,6 +304,13 @@ footer ul.menu li a {
   display: inline;
 }
 
+/* Display them on individual rows on mobile devices */
+@media screen and (max-width: 64.063em) {
+  .pagination > ul > li, .pagination > ul > li > a {
+    display: block;
+  }
+}
+
 /*
  * Content related css rules
  */
