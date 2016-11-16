@@ -275,6 +275,9 @@ ul.category-module li a:hover {
 #footer-wrapper {
   width: 100%;
   border-top: solid 1px black;
+  position: fixed;
+  bottom: 0;
+  background: white;
 }
 
 #footer-right {
