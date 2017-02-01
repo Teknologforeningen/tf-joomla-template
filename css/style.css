@@ -270,7 +270,7 @@ ul.category-module li a:hover {
 
 .site-content {
   flex: 1 0 auto;
-  margin-bottom: 34px;
+  padding-bottom: 34px;
 }
 
 #footer-wrapper {
