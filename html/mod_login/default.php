@@ -116,7 +116,7 @@ JHtml::_('bootstrap.tooltip');
 			</ul>
 		<input type="hidden" name="option" value="com_users" />
 		<input type="hidden" name="task" value="user.login" />
-		<input type="hidden" name="return" value="<?php echo $return; ?>" />
+		<input type="hidden" name="return" value="<?php if ($_GET['ReferTo']) echo $_GET['ReferTo']; else echo $return; ?>" />
 		<?php echo JHtml::_('form.token'); ?>
 	</div>
 	<?php if ($params->get('posttext')) : ?>
