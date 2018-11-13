@@ -18,7 +18,7 @@ if (!isset($this->error))
 $ReferTo = $_SERVER['REQUEST_URI'];
 $ReferTo = base64_encode($ReferTo);
 
-if ($this->error->getCode() = '403') {
+if ($this->error->getCode() == '403') {
 	header('Location:index.php?option=com_user&view=login&login_redirect_url='.$ReferTo); die();
 }
 
